@@ -277,7 +277,7 @@ public class Applicationmain {
 				System.out.println("Enter a floating point constant :");
 				float a =s.nextFloat();
 				float result =application.evaluatePolynomial(poly, a);
-				System.out.printf("Value of %c at %f is: ",poly,result);
+				System.out.printf("Value of %c at %f is: %f ",poly,a,result);
 				System.out.println();
 				
 				
